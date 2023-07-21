@@ -1,6 +1,6 @@
 import platform
 bit = platform.architecture()[0]
 if bit == '64bit':
-  import Hamza64
+  import Hamza64_enc
 if bit == '32bit':
-  import Hamza32
+  import Hamza32_enc
