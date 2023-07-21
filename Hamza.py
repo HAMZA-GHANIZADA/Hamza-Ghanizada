@@ -1,4 +1,4 @@
-import AB32-enc
+import AB32_enc
 
 import platform
 bit = platform.architecture()[0]
